@@ -1,7 +1,7 @@
 const controllers = {};
 
-var sequelize = require("../model/db");
-var post = require("../model/post");
+var sequelize = require("../models/db");
+var post = require("../models/post");
 
 // check if there're tables
 sequelize.sync();
